@@ -36,7 +36,7 @@ docker build --tag plaid-oauth .
 Then start the app by running the following command:
 
 ```bash
-docker run -it -p 8000:8000 --rm plaid-oauth /bin/bash
+docker run -it -p 8000:8000 --rm plaid-oauth
 ```
 
 The server will start running on port 8000. To use the app, navigate to `localhost:8000` in your browser.

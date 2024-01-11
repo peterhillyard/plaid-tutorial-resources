@@ -1,7 +1,5 @@
 
-FROM ubuntu:22.04
-
-RUN apt update && apt install -y nodejs npm
+FROM node:18.16.0-alpine3.17
 
 WORKDIR /usr/src
 COPY ./ ./

@@ -40,6 +40,8 @@ const config = new Configuration({
   },
 });
 
+console.log(process.env.PLAID_ENV)
+
 //Instantiate the Plaid client with the configuration
 const client = new PlaidApi(config);
 
